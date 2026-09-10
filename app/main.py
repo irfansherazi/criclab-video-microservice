@@ -6,6 +6,11 @@ Job rows live in the same Mongo database as the website API. Workers claim
 
 from __future__ import annotations
 
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import logging
 from contextlib import asynccontextmanager
 
